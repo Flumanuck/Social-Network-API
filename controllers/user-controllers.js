@@ -35,6 +35,8 @@ const userController = {
       .then(() => res.json(`User ${params.userId} deleted`))
       .catch((err) => res.json(err));
   },
+  addFriend() {},
+  removeFriend() {},
 };
 
 module.exports = userController;
